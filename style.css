@@ -21,13 +21,6 @@ body{
   flex-wrap: wrap;
   justify-content: center;
 }
-@media (max-width: 768px) {
-  .navbar-nav {
-    text-align: center;
-  }
-}
-
-
 /* Loader animation */
 .loader {
     width: 50px;
@@ -434,9 +427,14 @@ left:0px;
          animation-range:entry 0%;
     }
 #navigator{
-    width: 100%;
+    left:1%;
+    width: 98%;
     padding: 0px;
-    background-color: hsl(60, 3%, 35%);}
+    margin: auto;
+    background-color: black;
+    height: 65px;
+    border-radius:10px;
+    }
 .pro{
     width: 120px;
     height: 120px;
