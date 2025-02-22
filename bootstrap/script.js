@@ -1,3 +1,9 @@
+
+// Wait for the whole page to load before hiding the preloader
+window.addEventListener("load", function() {
+    document.getElementById("preloader").style.display = "none";
+});
+
 toviewaboutme=()=>{
         
 document.getElementById('about').scrollIntoView({
