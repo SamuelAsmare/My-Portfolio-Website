@@ -427,14 +427,9 @@ left:0px;
          animation-range:entry 0%;
     }
 #navigator{
-    left:1%;
-    width: 98%;
+    width: 100%;
     padding: 0px;
-    margin: auto;
-    background-color: black;
-    height: 65px;
-    border-radius:10px;
-    }
+    background-color: hsl(0, 0%, 2%);}
 .pro{
     width: 120px;
     height: 120px;
